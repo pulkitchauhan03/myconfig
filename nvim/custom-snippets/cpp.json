@@ -1,0 +1,39 @@
+{
+  "Starter Template": {
+    "prefix": "sc",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "#define ll long long",
+      "#define mod 1e9+7",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "\tios_base::sync_with_stdio(false);",
+      "\tcin.tie(NULL);",
+      "\tcout.tie(NULL);",
+      "\t",
+      "\t$1",
+      "\t",
+      "\treturn 0;",
+      "}"
+    ]
+  },
+  "Vector Int": {
+    "prefix": "vi",
+    "body": ["vector<int> $1;"]
+  },
+  "Pair Int": {
+    "prefix": "pi",
+    "body": ["pair<int, int> $1"]
+  },
+  "GCD": {
+    "prefix": "gcd",
+    "body": [
+      "ll gcd(ll a, ll b) {",
+      "\tif(b%a == 0) return a;",
+      "\treturn gcd(b%a, a);",
+      "}"
+    ]
+  }
+}
